@@ -1,0 +1,15 @@
+.diana{
+    color: pink;
+    background-color: darkslategrey;
+}
+
+.autre{
+    color: indigo;
+    background-color: silver;
+}
+
+.bordure{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
