@@ -28,7 +28,7 @@ function UpdateFilm(){
             setLoading(false)
             setError(error)
             setFilm()
-        });
+        }, []);
     })
 
     const handleTitreChange = event =>{

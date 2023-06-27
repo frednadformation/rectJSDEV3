@@ -43,8 +43,14 @@ import AllFilm from './components/AllFilm/AllFilm';
 import OneFilm from './components/OneFilm/OneFilm';
 import NewFilm from './components/NewFilm/NewFilm';
 
+
+
 import Updatetest from './components/updatetest';
 import UpdateFilm from './components/UpdateFilm/UpdateFilm';
+import ImageUpload from './components/ImageUpload/ImageUpload';
+import MultipleImageUpload from './components/MultipleImagesUpload/MultipleImageUpload';
+import AddBlog from './components/AddBlog/AddBlog';
+import MyBlog from './components/MyBlog/MyBlog';
 
 export const CountContext =React.createContext();
 
@@ -153,6 +159,12 @@ function App() {
 
         <Route path='/updatefilm/:id' element={<UpdateFilm />} />
 
+        <Route path='/imageupload' element={<ImageUpload />} />
+
+        <Route path='/multipleupload' element={<MultipleImageUpload />} />
+        <Route path='/updatefilm' element={<UpdateFilm />} />
+        <Route path='/addblog' element={<AddBlog />} />
+        <Route path='/myblog' element={<MyBlog />} />
         
 
         
